@@ -1,15 +1,15 @@
 import React from 'react';
-import { render, fireEvent, screen } from '../test-utils';
+import { render, screen } from '../testUtils/test-utils';
 import App from './App';
 
 test('renders learn react link', () => {
   const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
+  const linkElement = getByText(/collapse all/i);
   expect(linkElement).toBeInTheDocument();
 });
 
 it('Renders the connected app with initialState', () => {
   render(<App />, { initialState: { projects: [], languages: [] } });
 
-  expect(screen.getByText(/redux user/i)).toBeInTheDocument();
+  expect(screen.getByRole('button', { name: /🌚/i })).toBeInTheDocument();
 });

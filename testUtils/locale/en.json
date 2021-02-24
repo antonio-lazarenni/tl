@@ -1,0 +1,15 @@
+{
+    "button.newproject": "New project ⇧⌘P",
+    "button.expandall": "Expand all",
+    "button.collapseall": "Collapse all",
+    "button.addlanguage": "Add Language",
+    "button.close": "Close",
+    "button.add": "Add",
+    "done": "Done",
+    "wordstodo": "Words to do",
+    "unverified": "Unverified",
+    "basewords": "BASE WORDS",
+    "Team": "team",
+    "keys": "Keys",
+    "qaissues": "QA Issues"
+}
